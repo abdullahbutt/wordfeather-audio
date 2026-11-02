@@ -1,13 +1,13 @@
 # WordFeather sentence audio
 
-Recorded German example sentences for [WordFeather](https://wordfeather.com), used on devices whose own text-to-speech voice does not
+Recorded German example sentences and vocabulary words for [WordFeather](https://wordfeather.com), used on devices whose own text-to-speech voice does not
 read German naturally (for example an iPhone with only the compact German voice). Devices with a natural voice use their own voice.
 
 ## Layout
 
 - `audio/de/<key>.mp3`: one file per German sentence, mono mp3, 22.05 kHz, 48 kbps.
 - `manifest.jsonl`: one line per file with `key`, `text`, `level` (A1-C2), `source` (`original` = example sentence of the vocabulary list,
-  `new` = sentence of the learning path), `voice`, `pace` and `bytes`.
+  `new` = sentence of the learning path, `word` = word or phrase of the Deutsch column of the vocabulary pages, read without plural endings and notes), `voice`, `pace` and `bytes`.
 
 `<key>` is the first 16 hex characters of the SHA-1 of the sentence (UTF-8, white space collapsed, trimmed), so the app finds the file
 from the text alone. Example: `Im Park liegt viel Abfall auf dem Boden.` is `audio/de/d8acb376c0c8c67c.mp3`.
