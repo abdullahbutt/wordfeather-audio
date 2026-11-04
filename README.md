@@ -3,6 +3,11 @@
 Recorded German example sentences and vocabulary words for [WordFeather](https://wordfeather.com), used on devices whose own text-to-speech voice does not
 read German naturally (for example an iPhone with only the compact German voice). Devices with a natural voice use their own voice.
 
+## Address
+
+The files are served by GitHub Pages at `https://audio.wordfeather.com/audio/de/<key>.mp3` (custom domain, see the `CNAME` file).
+The older address `https://abdullahbutt.github.io/wordfeather-audio/` redirects to it.
+
 ## Layout
 
 - `audio/de/<key>.mp3`: one file per German sentence, mono mp3, 22.05 kHz, 48 kbps.
