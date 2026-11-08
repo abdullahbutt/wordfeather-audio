@@ -27,10 +27,10 @@ B2 to C2 1.0). The generator is `tools/sentence_audio/make_audio.py` in the Word
 
 The 23 listening texts of the Hören practice and of the placement test (`source` = `hoeren`) are recorded as one file per text. Texts with
 several speakers are read by different voices with a short pause between the speakers: a woman (`kerstin-low`) and a man
-(`thorsten-medium`) for dialogues and interviews, a second woman (`ramona-low`) for the third person of discussions, and `thorsten-high`
-for a second man. The speakers of the turns are listed in `tools/sentence_audio/hoeren_turns.json` of the frontend repository. The quiz plays
+(`thorsten-medium`) for dialogues and interviews, a second woman (`ramona-low`) for the third person of discussions, and `karlsson-low`
+for a second man (Herr Wagner in the C2 panel). The speakers of the turns are listed in `tools/sentence_audio/hoeren_turns.json` of the frontend repository. The quiz plays
 these files on every device, so that every learner hears the same voice and pace; the voice of the device is only the fallback.
-The licence of the voices `ramona` and `thorsten` has not been checked yet (see the licence note below).
+The licence of the voices `ramona`, `thorsten` and `karlsson` (dataset: M-AILABS) has not been checked yet (see the licence note below).
 
 ## Licence note
 
